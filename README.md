@@ -9,20 +9,21 @@ Bloom's Taxonomy Classification: Automatically classifies questions into various
 Difficulty Level: Option to specify the difficulty level of the questions.
 Gemini API Integration: Uses the Gemini API for advanced natural language processing to generate relevant and high-quality questions.
 Interactive UI: Built with HTML, CSS, and JavaScript to provide an easy-to-use interface.
-Technologies Used
+----------------------------------------------------------------------------
+Technologies Used:
 Frontend: HTML, CSS, JavaScript
 Backend: Gemini API (for question generation and NLP processing)
 File Upload: PDF file handling and parsing for content extraction
-
-Usage
+-------------------------------------------------------------------------------
+Usage:
 Upload a PDF containing the content from which you want to generate questions.
 Select the desired Bloom's Taxonomy level and difficulty for the generated questions.
 Click Generate Questions to see the results.
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+Contributing:
 Feel free to open issues, submit pull requests, or suggest features. Contributions are welcome!
 
-Acknowledgements
+Acknowledgements:
 Gemini API for question generation and natural language processing.
