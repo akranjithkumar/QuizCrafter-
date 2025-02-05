@@ -1,29 +1,83 @@
-# QuizCrafter
+# 📄 Question Paper Generator
 
-Question Paper Generator
-A web-based application that generates question papers based on a given PDF, leveraging the Gemini API, HTML, CSS, and JavaScript. The generated questions are categorized according to Bloom's Taxonomy and can be adjusted for different difficulty levels.
+🚀 **AI-powered question paper generator using the Gemini API!**  
+This web-based tool allows users to upload a PDF and generate questions based on Bloom's Taxonomy, categorized by difficulty levels.
 
-Features
-PDF Upload: Upload a PDF containing topics or content for question generation.
-Bloom's Taxonomy Classification: Automatically classifies questions into various levels of Bloom's Taxonomy (Remember, Understand, Apply, Analyze, Evaluate, Create).
-Difficulty Level: Option to specify the difficulty level of the questions.
-Gemini API Integration: Uses the Gemini API for advanced natural language processing to generate relevant and high-quality questions.
-Interactive UI: Built with HTML, CSS, and JavaScript to provide an easy-to-use interface.
-----------------------------------------------------------------------------
-Technologies Used:
-Frontend: HTML, CSS, JavaScript
-Backend: Gemini API (for question generation and NLP processing)
-File Upload: PDF file handling and parsing for content extraction
--------------------------------------------------------------------------------
-Usage:
-Upload a PDF containing the content from which you want to generate questions.
-Select the desired Bloom's Taxonomy level and difficulty for the generated questions.
-Click Generate Questions to see the results.
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+## ✨ Features
 
-Contributing:
-Feel free to open issues, submit pull requests, or suggest features. Contributions are welcome!
+👉 **PDF Upload** – Extracts content from uploaded PDFs  
+👉 **Bloom's Taxonomy Levels** – Generates questions across cognitive levels (Remember, Understand, Apply, etc.)  
+👉 **Difficulty Selection** – Customize the complexity of generated questions  
+👉 **Gemini API Integration** – AI-powered question generation for accuracy and relevance  
+👉 **User-Friendly Interface** – Built with **HTML, CSS, and JavaScript**  
 
-Acknowledgements:
-Gemini API for question generation and natural language processing.
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript  
+- **AI Model**: Gemini API  
+- **PDF Processing**: JavaScript-based file handling  
+
+---
+## 🎯 Usage Guide
+
+1. **Upload a PDF** – Select a document containing study material.  
+2. **Choose Difficulty Level** – Adjust the complexity of generated questions.  
+3. **Select Bloom’s Taxonomy Level** – Generate questions based on cognitive categories.  
+4. **Click "Generate"** – AI processes the content and provides relevant questions.  
+5. **Download or Copy Questions** – Save the generated questions for further use.
+
+---
+
+## 📝 Example Output
+
+| Bloom’s Level  | Sample Question |
+|---------------|----------------|
+| Remember      | Define Ohm’s Law. |
+| Understand    | Explain the working principle of a transformer. |
+| Apply        | Solve a circuit using Kirchhoff’s Voltage Law. |
+
+---
+
+## 🐝 API Setup (Optional)
+
+If using a private API key for the Gemini API, follow these steps:
+
+1. Obtain your API key from Google Gemini API.
+2. Store it in an `.env` file or directly in the JavaScript code.
+3. Update the API request URL and headers accordingly.
+
+---
+
+## 🐜 Roadmap
+
+- [ ] Add support for multiple file formats (DOCX, TXT)
+- [ ] Implement MCQ generation
+- [ ] Export questions as PDF or DOCX
+- [ ] Add AI-based answer key generation
+
+---
+
+## 🌟 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions, feel free to **open an issue** or **submit a pull request**.
+
+---
+
+## 🙌 Acknowledgements
+
+💡 **Powered by Gemini API** – AI-driven question generation  
+📚 **Inspired by Bloom’s Taxonomy** – Educational framework for effective learning  
+
+---
+
+📝 **Stay Connected**  
+📧 Email: akranjithkumar03@gmail.com.com  
